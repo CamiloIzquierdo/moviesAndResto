@@ -1,0 +1,90 @@
+form {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    border: 2px dotted;
+    padding: 20px 10px;
+    max-width: 400px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+input:invalid {
+    background-color: rgb(255, 231, 231);
+}
+
+input:valid {
+    background-color: rgb(255, 231, 231);
+}
+
+textarea:invalid {
+    background-color: rgb(255, 231, 231);
+}
+
+textarea:valid {
+    background-color: rgb(255, 231, 231);
+}
+
+.group {
+    display: flex;
+    /* outline: 1px solid; */
+    align-items: center;
+    justify-content: space-between;
+}
+.group label {
+    display: flex;
+    width: 45px;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+legend {
+    font-weight: 600;
+}
+
+input[type="submit"] {
+    height: auto;
+    background-color: transparent;
+    padding: 5px;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(244, 244, 244);
+}
+
+input {
+    width: 100%;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+.opiniones {
+    width: 100%;
+    overflow: hidden;
+    resize: none;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+input::placeholder {
+    opacity: 0.5;
+}
+
+.opiniones::placeholder {
+    opacity: 0.5;
+}
+
+.form-pelicula {
+    min-height: calc(100vh - 80px);
+    min-width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

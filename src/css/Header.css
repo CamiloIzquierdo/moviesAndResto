@@ -1,0 +1,53 @@
+nav {
+    background-color: rgba(252, 46, 200, 0.082);
+    padding: 5px;
+    min-height: 60px;
+    width: 100%;
+}
+nav li {
+    list-style-type: none;
+    text-transform: capitalize;
+    height: 100%;
+    display: inline-flex;
+    align-items: center;
+    margin: 10px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+}
+nav a:hover {
+    color: red;
+}
+
+.navbar-toggler {
+    outline: none;
+    border: none;
+}
+
+.navbar-mia a:first-child {
+    margin-right: 10px;
+}
+
+.navbar-navegacion {
+    color: white;
+}
+
+.navbar-navegacion:hover {
+    color: red;
+}
+
+.navbar-navegacion:focus {
+    color: red;
+}
+
+.navbar-menu-desplegable {
+    background-color: pink;
+    padding: 5px 5px;
+    min-width: 220px;
+    min-height: 0;
+}
+
+.navbar-menu-desplegable p {
+    margin: 0;
+}

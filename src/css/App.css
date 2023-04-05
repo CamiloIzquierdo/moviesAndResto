@@ -1,0 +1,11 @@
+body {
+    background-image: url(../assets/fondo.webp);
+    background-repeat: none;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
